@@ -2327,7 +2327,7 @@
 					<Item Name="LimitAI16_src" Type="Directives">
 						<Property Name="Description" Type="Str"></Property>
 						<Property Name="DirectiveHistory" Type="Str"></Property>
-						<Property Name="Directives" Type="Str">
+						<Property Name="Directives" Type="Str">
 
 &lt;apDirectivesItem&gt;
 
@@ -2426,7 +2426,7 @@
 					<Item Name="ScaleAI16_src" Type="Directives">
 						<Property Name="Description" Type="Str"></Property>
 						<Property Name="DirectiveHistory" Type="Str"></Property>
-						<Property Name="Directives" Type="Str">
+						<Property Name="Directives" Type="Str">
 
 &lt;apDirectivesItem&gt;
 
