@@ -10,6 +10,8 @@
 	<Item Name="ClearLimits.vi" Type="VI" URL="../ClearLimits.vi"/>
 	<Item Name="Configuration.ctl" Type="VI" URL="../Configuration.ctl"/>
 	<Item Name="FPGAInterface.ctl" Type="VI" URL="../FPGAInterface.ctl"/>
+	<Item Name="getContext.vi" Type="VI" URL="../getContext.vi"/>
+	<Item Name="Interface.ctl" Type="VI" URL="../Interface.ctl"/>
 	<Item Name="LoadConfiguration.vi" Type="VI" URL="../LoadConfiguration.vi"/>
 	<Item Name="ReadLimits.vi" Type="VI" URL="../ReadLimits.vi"/>
 </Library>
