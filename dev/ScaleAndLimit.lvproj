@@ -2624,6 +2624,8 @@ AddOutputFilter chunkFilter
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="xsimk03D06ED52BF64DBBA65D3792F583FC56.dll" Type="Document" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/QuadratureEncoder/QuadEnc/FPGA Type Cast/typecast_U32_to_SGLSimFiles/xsim.dir/typecast_U32_to_SGL/xsimk03D06ED52BF64DBBA65D3792F583FC56.dll"/>
 					</Item>
+					<Item Name="LimitAI16_src.vi" Type="VI" URL="../Core/IPBuilder/LimitAI16_src.vi"/>
+					<Item Name="ScaleAI16_src.vi" Type="VI" URL="../Core/IPBuilder/ScaleAI16_src.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="BasicExampleWithInstrFrwk" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
