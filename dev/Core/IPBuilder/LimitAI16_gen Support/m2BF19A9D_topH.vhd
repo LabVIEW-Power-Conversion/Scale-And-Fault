@@ -3,7 +3,7 @@ library ieee,work;
   use ieee.numeric_std.all;
 
 
-entity mD7C19A9D_topH is
+entity m2BF19A9D_topH is
 port (
     p_12 : in std_logic_vector(0 downto 0);
     p_11 : in std_logic_vector(15 downto 0);
@@ -69,9 +69,9 @@ port (
     ap_ce : in std_logic;
     first_call : in std_logic
     );
-end mD7C19A9D_topH;
+end m2BF19A9D_topH;
 
-architecture structural of mD7C19A9D_topH is
+architecture structural of m2BF19A9D_topH is
 signal ap_ready : std_logic;
 signal ap_done : std_logic;
 signal input_valid_from_harness : std_logic;
@@ -135,7 +135,7 @@ begin
 
 
 
-APWrapper_Block: entity work.mD7C19A9Df_0
+APWrapper_Block: entity work.m2BF19A9Df_0
 port map(
     ap_start => '1',
     ap_idle => open,

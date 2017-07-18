@@ -2847,22 +2847,27 @@ AddOutputFilter chunkFilter
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niInstr FIFO Register Bus v1 Host.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/FIFO Register Bus/v1/Host/niInstr FIFO Register Bus v1 Host.lvclass"/>
 				<Item Name="niInstr Instruction Framework Context v1 Host.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/Host/Instruction Framework Context/niInstr Instruction Framework Context v1 Host.lvclass"/>
+				<Item Name="niInstr Instruction Framework Helper Classes v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/FPGA/Helper Classes/niInstr Instruction Framework Helper Classes v1 FPGA.lvlib"/>
+				<Item Name="niInstr Instruction Framework Interfaces v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/FPGA/Interfaces/niInstr Instruction Framework Interfaces v1 FPGA.lvlib"/>
+				<Item Name="niInstr Instruction Framework v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/FPGA/Typedefs/niInstr Instruction Framework v1 FPGA.lvlib"/>
 				<Item Name="niInstr Instruction Target v1 Host.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/Host/Instruction Target/niInstr Instruction Target v1 Host.lvclass"/>
 				<Item Name="niInstr Subsystem Map v1 Host.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Instruction Framework/v1/Host/Subsystem Map/niInstr Subsystem Map v1 Host.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="ClearLimits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Interface/ClearLimits.vi"/>
-				<Item Name="Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Interface/Configuration.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="getContext.vi" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Interface/getContext.vi"/>
-				<Item Name="LoadConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Interface/LoadConfiguration.vi"/>
-				<Item Name="ReadLimits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Interface/ReadLimits.vi"/>
-				<Item Name="SingleAIConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Core/SingleAIConfig.ctl"/>
+				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+			</Item>
+			<Item Name="LimitAI16_src.vi" Type="VI" URL="../Core/IPBuilder/LimitAI16_src.vi"/>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niifwu.dll" Type="Document" URL="/&lt;resource&gt;/niifwu.dll"/>
-			<Item Name="ScaleAndLimit_FPGATarget_BasicExampleWith_nkdyZl4UhlU.lvbitx" Type="Document" URL="/../../../../LabVIEWPowerElectronicsControl/ScaleAndLimit/.dev/FPGA Bitfiles/ScaleAndLimit_FPGATarget_BasicExampleWith_nkdyZl4UhlU.lvbitx"/>
-			<Item Name="ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx" Type="Document" URL="/../../../../LabVIEWPowerElectronicsControl/ScaleAndLimit/.dev/FPGA Bitfiles/ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx"/>
+			<Item Name="ScaleAI16_src.vi" Type="VI" URL="../Core/IPBuilder/ScaleAI16_src.vi"/>
+			<Item Name="ScaleAndLimit.lvlib" Type="Library" URL="../Core/ScaleAndLimit.lvlib"/>
+			<Item Name="ScaleAndLimit_FPGATarget_BasicExampleWith_nkdyZl4UhlU.lvbitx" Type="Document" URL="../FPGA Bitfiles/ScaleAndLimit_FPGATarget_BasicExampleWith_nkdyZl4UhlU.lvbitx"/>
+			<Item Name="ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx"/>
+			<Item Name="xsimk03D06ED52BF64DBBA65D3792F583FC56.dll" Type="Document" URL="../Core/FPGA Type Cast/typecast_U32_to_SGLSimFiles/xsim.dir/typecast_U32_to_SGL/xsimk03D06ED52BF64DBBA65D3792F583FC56.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

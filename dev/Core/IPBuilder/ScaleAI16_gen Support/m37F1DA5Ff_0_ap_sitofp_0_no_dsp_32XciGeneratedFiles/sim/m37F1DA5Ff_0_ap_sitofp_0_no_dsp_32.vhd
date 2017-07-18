@@ -56,20 +56,18 @@ USE ieee.numeric_std.ALL;
 LIBRARY floating_point_v7_1_1;
 USE floating_point_v7_1_1.floating_point_v7_1_1;
 
-ENTITY m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32 IS
+ENTITY m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32 IS
   PORT (
     s_axis_a_tvalid : IN STD_LOGIC;
     s_axis_a_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    s_axis_b_tvalid : IN STD_LOGIC;
-    s_axis_b_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     m_axis_result_tvalid : OUT STD_LOGIC;
     m_axis_result_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
   );
-END m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32;
+END m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32;
 
-ARCHITECTURE m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32_arch OF m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32 IS
+ARCHITECTURE m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32_arch OF m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : string;
-  ATTRIBUTE DowngradeIPIdentifiedWarnings OF m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32_arch: ARCHITECTURE IS "yes";
+  ATTRIBUTE DowngradeIPIdentifiedWarnings OF m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32_arch: ARCHITECTURE IS "yes";
 
   COMPONENT floating_point_v7_1_1 IS
     GENERIC (
@@ -178,8 +176,6 @@ ARCHITECTURE m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32_arch OF m9FC1DA5Ff_0_ap_fmul_0_ma
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_a_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_A TVALID";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_a_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_A TDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_b_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_B TVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_b_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_B TDATA";
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_result_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_RESULT TVALID";
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_result_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_RESULT TDATA";
 BEGIN
@@ -188,11 +184,11 @@ BEGIN
       C_XDEVICEFAMILY => "zynq",
       C_HAS_ADD => 0,
       C_HAS_SUBTRACT => 0,
-      C_HAS_MULTIPLY => 1,
+      C_HAS_MULTIPLY => 0,
       C_HAS_DIVIDE => 0,
       C_HAS_SQRT => 0,
       C_HAS_COMPARE => 0,
-      C_HAS_FIX_TO_FLT => 0,
+      C_HAS_FIX_TO_FLT => 1,
       C_HAS_FLT_TO_FIX => 0,
       C_HAS_FLT_TO_FLT => 0,
       C_HAS_RECIP => 0,
@@ -205,17 +201,17 @@ BEGIN
       C_HAS_ACCUMULATOR_A => 0,
       C_HAS_ACCUMULATOR_S => 0,
       C_A_WIDTH => 32,
-      C_A_FRACTION_WIDTH => 24,
+      C_A_FRACTION_WIDTH => 0,
       C_B_WIDTH => 32,
-      C_B_FRACTION_WIDTH => 24,
+      C_B_FRACTION_WIDTH => 0,
       C_C_WIDTH => 32,
-      C_C_FRACTION_WIDTH => 24,
+      C_C_FRACTION_WIDTH => 0,
       C_RESULT_WIDTH => 32,
       C_RESULT_FRACTION_WIDTH => 24,
       C_COMPARE_OPERATION => 8,
       C_LATENCY => 0,
       C_OPTIMIZATION => 1,
-      C_MULT_USAGE => 3,
+      C_MULT_USAGE => 0,
       C_BRAM_USAGE => 0,
       C_RATE => 1,
       C_ACCUM_INPUT_MSB => 32,
@@ -232,7 +228,7 @@ BEGIN
       C_THROTTLE_SCHEME => 3,
       C_HAS_A_TUSER => 0,
       C_HAS_A_TLAST => 0,
-      C_HAS_B => 1,
+      C_HAS_B => 0,
       C_HAS_B_TUSER => 0,
       C_HAS_B_TLAST => 0,
       C_HAS_C => 0,
@@ -264,8 +260,8 @@ BEGIN
       s_axis_a_tdata => s_axis_a_tdata,
       s_axis_a_tuser => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 1)),
       s_axis_a_tlast => '0',
-      s_axis_b_tvalid => s_axis_b_tvalid,
-      s_axis_b_tdata => s_axis_b_tdata,
+      s_axis_b_tvalid => '0',
+      s_axis_b_tdata => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 32)),
       s_axis_b_tuser => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 1)),
       s_axis_b_tlast => '0',
       s_axis_c_tvalid => '0',
@@ -280,4 +276,4 @@ BEGIN
       m_axis_result_tready => '0',
       m_axis_result_tdata => m_axis_result_tdata
     );
-END m9FC1DA5Ff_0_ap_fmul_0_max_dsp_32_arch;
+END m37F1DA5Ff_0_ap_sitofp_0_no_dsp_32_arch;
