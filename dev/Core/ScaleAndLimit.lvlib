@@ -14,6 +14,5 @@
 	<Item Name="CreateLimitsRegisters.vi" Type="VI" URL="../CreateLimitsRegisters.vi"/>
 	<Item Name="LimitsRegisters.ctl" Type="VI" URL="../LimitsRegisters.ctl"/>
 	<Item Name="SingleAIConfig.ctl" Type="VI" URL="../SingleAIConfig.ctl"/>
-	<Item Name="U32 to SGL.vi" Type="VI" URL="../FPGA Type Cast/U32 to SGL.vi"/>
 	<Item Name="WaitUntillReady.vi" Type="VI" URL="../WaitUntillReady.vi"/>
 </Library>

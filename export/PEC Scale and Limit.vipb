@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 09:36:22" Modified_Date="2017-07-18 09:20:06" Creator="Brian Kindinger" Comments="" ID="331bbc48de5b3f5bafedb869dcc9a4a3">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 09:36:22" Modified_Date="2017-08-30 08:38:15" Creator="Brian Kindinger" Comments="" ID="ca6eee32697f4defb7891f48bdb355e9">
   <Library_General_Settings>
     <Package_File_Name>pec_lib_scale_and_limit</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\dev</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>ni_lib_lvfpga_nonreentrant_single_point &gt;=1.0.0.6</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -34,7 +36,8 @@
       <URL>https://github.com/LabVIEW-Power-Electronic-Control/Scale-And-Limit</URL>
       <Release_Notes>[BLK 2/14/17] Initial build
 [BLK 5/19/17] Upgrade to LV2017
-[BLK 7/17]  Documentation and naming upgrades</Release_Notes>
+[BLK 7/17]  Documentation and naming upgrades
+[BLK 8/2017]  Link to reentrant math library</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
