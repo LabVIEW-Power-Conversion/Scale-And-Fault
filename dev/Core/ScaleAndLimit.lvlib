@@ -8,6 +8,8 @@
 
 </Property>
 	<Item Name="AddressSpace.lvclass" Type="LVClass" URL="../AddressSpace.lvclass"/>
+	<Item Name="AILimits.vi" Type="VI" URL="../AILimits.vi"/>
+	<Item Name="AIScale.vi" Type="VI" URL="../AIScale.vi"/>
 	<Item Name="AIScaleAndLimit.vi" Type="VI" URL="../AIScaleAndLimit.vi"/>
 	<Item Name="ConfigRegisters.ctl" Type="VI" URL="../ConfigRegisters.ctl"/>
 	<Item Name="CreateConfigRegisters.vi" Type="VI" URL="../CreateConfigRegisters.vi"/>

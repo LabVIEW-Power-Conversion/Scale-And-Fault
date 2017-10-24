@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 09:36:22" Modified_Date="2017-08-30 09:09:18" Creator="Brian Kindinger" Comments="" ID="1b098e03fb4ac92c8b90829378014652">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 09:36:22" Modified_Date="2017-10-24 14:00:35" Creator="Brian Kindinger" Comments="" ID="4342a6e3751e76383e222190d36dfe53">
   <Library_General_Settings>
     <Package_File_Name>pec_lib_scale_and_limit</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\dev</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_lvfpga_nonreentrant_single_point &gt;=1.0.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>national_instruments_lib_ni_floating_point_library &gt;=1.0.0.15</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
