@@ -2467,8 +2467,8 @@ AddOutputFilter chunkFilter
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="niFPGA U32 To SGL Cast.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA U32 To SGL Cast.vi"/>
+						<Item Name="xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll" Type="Document" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Core/AIScale/I16ToSGL_convert/xsim.dir/I16ToSGL_convert_BAEB0EFF4B15497ABBB37471944D9EC5/xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll"/>
 					</Item>
-					<Item Name="xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll" Type="Document" URL="../Core/AIScale/I16ToSGL_convert/xsim.dir/I16ToSGL_convert_BAEB0EFF4B15497ABBB37471944D9EC5/xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="BasicExampleWithInstrFrwk" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2735,6 +2735,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="niFPGA U32 To SGL Cast.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA U32 To SGL Cast.vi"/>
+				<Item Name="xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll" Type="Document" URL="/&lt;vilib&gt;/NI/PowerElectronicsControl/ScaleAndLimit/Core/AIScale/I16ToSGL_convert/xsim.dir/I16ToSGL_convert_BAEB0EFF4B15497ABBB37471944D9EC5/xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -2742,7 +2743,6 @@ AddOutputFilter chunkFilter
 			<Item Name="niifwu.dll" Type="Document" URL="/&lt;resource&gt;/niifwu.dll"/>
 			<Item Name="ScaleAndLimit.lvlib" Type="Library" URL="../Core/ScaleAndLimit.lvlib"/>
 			<Item Name="ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/ScaleAndLimit_FPGATarget_InstructionFrame_+7wJIgSopvQ.lvbitx"/>
-			<Item Name="xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll" Type="Document" URL="../Core/AIScale/I16ToSGL_convert/xsim.dir/I16ToSGL_convert_BAEB0EFF4B15497ABBB37471944D9EC5/xsimk_BAEB0EFF4B15497ABBB37471944D9EC5.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
